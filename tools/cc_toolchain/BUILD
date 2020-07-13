@@ -22,6 +22,8 @@ cc_toolchain_suite(
     toolchains = {
         "k8|clang": "cc_toolchain_linux",
         "armeabihf|clang": "cc_toolchain_armeabihf",
+        "k8|clang++": "cc_toolchain_linux",
+        "armeabihf|clang++": "cc_toolchain_armeabihf",
     },
 )
 
